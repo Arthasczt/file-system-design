@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2023-02-24T08:22:19.607Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.8.23" etag="-T9CGJ6_hzfMXEXUFVUH" type="github"><diagram name="第 1 页" id="G2iAPM-marGcxllxZqmY">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-24T08:23:37.163Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="0CYW996lxx7lns6pDjd4" version="20.8.23" type="github">
+  <diagram name="第 1 页" id="G2iAPM-marGcxllxZqmY">
+    <mxGraphModel dx="1434" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UMAYZT6L1rhuLQns0fhw-1" value="文件系统" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=17;" vertex="1" parent="1">
+          <mxGeometry x="330" y="200" width="170" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="UMAYZT6L1rhuLQns0fhw-2" value="转发" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UMAYZT6L1rhuLQns0fhw-6" target="UMAYZT6L1rhuLQns0fhw-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMAYZT6L1rhuLQns0fhw-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="UMAYZT6L1rhuLQns0fhw-6" target="UMAYZT6L1rhuLQns0fhw-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMAYZT6L1rhuLQns0fhw-4" value="块设备请求数据结构" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UMAYZT6L1rhuLQns0fhw-3">
+          <mxGeometry x="0.3333" y="2" relative="1" as="geometry">
+            <mxPoint x="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UMAYZT6L1rhuLQns0fhw-5" value="进程回复数据结构" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;spacingLeft=9;" edge="1" parent="1" source="UMAYZT6L1rhuLQns0fhw-6" target="UMAYZT6L1rhuLQns0fhw-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMAYZT6L1rhuLQns0fhw-6" value="接口处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UMAYZT6L1rhuLQns0fhw-7" value="转发" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UMAYZT6L1rhuLQns0fhw-8" target="UMAYZT6L1rhuLQns0fhw-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMAYZT6L1rhuLQns0fhw-8" value="具体结构" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UMAYZT6L1rhuLQns0fhw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="UMAYZT6L1rhuLQns0fhw-11" target="UMAYZT6L1rhuLQns0fhw-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMAYZT6L1rhuLQns0fhw-10" value="测试用例请求数据结构" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UMAYZT6L1rhuLQns0fhw-9">
+          <mxGeometry x="0.2233" y="1" relative="1" as="geometry">
+            <mxPoint x="26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UMAYZT6L1rhuLQns0fhw-11" value="测试空盒" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UMAYZT6L1rhuLQns0fhw-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="UMAYZT6L1rhuLQns0fhw-14" target="UMAYZT6L1rhuLQns0fhw-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMAYZT6L1rhuLQns0fhw-13" value="测试用例回复数据结构" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UMAYZT6L1rhuLQns0fhw-12">
+          <mxGeometry x="-0.2069" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UMAYZT6L1rhuLQns0fhw-14" value="测试块设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
